@@ -1,0 +1,107 @@
+html {
+    scroll-behavior: smooth
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+
+/* Nav Bar */
+.nav-bar {
+    padding-left: -15px;
+    z-index: 1;
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    float: right;
+    margin-top: 10px;
+   
+}
+
+.nav-bar ul li a {
+    padding: 20px;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px; 
+    text-decoration: none;
+}
+
+.nav-bar ul li:hover {
+    border-bottom: 5px solid #ff7f50;
+  }
+
+  /*Index - Hopepage */
+  #home {
+    background-image: url('../images/devon-janse-van-rensburg--zUuf57UmYc-unsplash.jpg');
+    background-size: cover;
+      height: 700px;
+      width: -webkit-fill-available; 
+      display: inline-block;
+      background-repeat: no-repeat;
+  }
+
+/*Introducion */
+
+#parent {
+    /*height: 40px;*/
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: 'Source Code Pro', monospace;  
+    font-size: 55px;
+    color: white;
+    position: absolute;
+    top: 40%;
+    padding-left: 50px;
+    font-weight: 600;
+  }
+
+  #child {
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: 'Source Code Pro', monospace;  
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    padding-left: 50px;
+    color: white;
+  }
+  
+  /* Animation */
+  #parent {
+    animation: animated-text 3s steps(30,end) 1s 1 normal both
+  }
+  
+  /* text animation */
+  
+  @keyframes animated-text{
+    from{width: 0;}
+    to{width: 550px;}
+  }
+
+
+ 
+
+  #about {
+      background-color: red;
+      height: 700px;
+      display: inline-block;
+  }
+
+  #services {
+    background-color: pink;
+    height: 700px;
+    display: inline-block;
+}
+
+#portfolio {
+    background-color: orange;
+    height: 700px;
+    display: inline-block;
+}
