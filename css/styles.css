@@ -86,13 +86,36 @@ html {
   }
 
 
- 
+ /*About*/
 
   #about {
-      background-color: red;
+      background-color: white;
       height: 700px;
+      width: -webkit-fill-available;
       display: inline-block;
   }
+
+  #about p {
+      
+      width: 23em;
+      font-size: 28px;
+      padding: 170px 0 0 40px;
+      font-style: italic;
+  }
+
+  .role {
+      position: absolute;
+      top: 100%;
+      right: 5%;
+  }
+
+  .role li {
+    position: absolute;
+    top: 100%;
+    right: 5%;
+  }
+
+ 
 
   #services {
     background-color: pink;
