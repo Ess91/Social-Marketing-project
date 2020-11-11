@@ -1,13 +1,15 @@
 html {
-    scroll-behavior: smooth
+    scroll-behavior: smooth;
+    
 }
+
 
 .container {
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
 
 /* Nav Bar */
@@ -31,10 +33,11 @@ html {
     font-weight: bolder;
     font-size: 20px; 
     text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .nav-bar ul li:hover {
-    border-bottom: 5px solid #ff7f50;
+    border-bottom: 5px solid #E9473F;
   }
 
   /*Index - Hopepage */
@@ -42,7 +45,7 @@ html {
     background-image: url('../images/devon-janse-van-rensburg--zUuf57UmYc-unsplash.jpg');
     background-size: cover;
       height: 700px;
-      width: -webkit-fill-available; 
+      width: 100vw;; 
       display: inline-block;
       background-repeat: no-repeat;
   }
@@ -53,22 +56,23 @@ html {
     /*height: 40px;*/
     white-space: nowrap;
     overflow: hidden;
-    font-family: 'Source Code Pro', monospace;  
+    font-family: 'Montserrat', sans-serif; 
     font-size: 55px;
     color: white;
     position: absolute;
-    top: 40%;
+    top: 15%;
     padding-left: 50px;
     font-weight: 600;
+   
   }
 
   #child {
     white-space: nowrap;
     overflow: hidden;
-    font-family: 'Source Code Pro', monospace;  
+    font-family: 'Montserrat', sans-serif; 
     font-size: 30px;
     position: absolute;
-    top: 50%;
+    top: 19%;
     padding-left: 50px;
     color: white;
   }
@@ -90,34 +94,77 @@ html {
 
   #about {
       background-color: white;
-      height: 700px;
-      width: -webkit-fill-available;
+      height: 500px;
+      width: 100vw;
       display: inline-block;
   }
 
   #about h1 {
     text-align: center;
     padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    color: #333333;
+    font-weight: 700;
   }
 
 
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+  color: #333333;
+}
+
+#about p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #333333;
+}
 
  .row {
    padding: 35px;
  }
 
+ button a {
+   text-decoration: none;
+   color: #ffffff;
+ }
 
+ button {
+   display: block;
+   margin: 0 auto;
+   padding: 20px 40px;
+   font-size: 14px;
+   background-color: #E9473F;
+   border: none;
+   border-radius: 25px;
+   text-transform: uppercase;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+ }
+
+ button:hover a {
+   color: #ffffff;
+   text-decoration: none;
+ }
+
+ button:hover {
+   transform: scale(1.1);
+   transition: 0.7s;
+ }
 
  
 
   #services {
-    background-color: pink;
+    background-color: red;
     height: 700px;
     display: inline-block;
 }
 
 #portfolio {
     background-color: orange;
-    height: 700px;
+    height: 500px;
+    width: -webkit-fill-available;
     display: inline-block;
 }
