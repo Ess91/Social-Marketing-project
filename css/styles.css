@@ -45,7 +45,7 @@ html {
     background-image: url('../images/devon-janse-van-rensburg--zUuf57UmYc-unsplash.jpg');
     background-size: cover;
       height: 700px;
-      width: 100vw;; 
+      width: 102vw;; 
       display: inline-block;
       background-repeat: no-repeat;
   }
@@ -155,20 +155,47 @@ h3 {
    transition: 0.7s;
  }
 
+
+ /*Our Work*/
+
+ #portfolio {
+  background-color: white;
+  height: 500px;
+  width: 100vw;
+  display: inline-block;
+}
  
 
+#portfolio h1 {
+  text-align: center;
+}
+
+.mini-gallery {
+  /* Prevent vertical gaps */
+  line-height: 1;
+  column-count: 3;
+  column-gap: 2px;
+  padding: 40px;
+ 
+}
+
+.mini-gallery img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+  vertical-align: baseline;
+}
+
+
+
+/* Services*/
   #services {
     background-color: red;
     height: 700px;
     display: inline-block;
 }
 
-#portfolio {
-    background-color: orange;
-    height: 500px;
-    width: -webkit-fill-available;
-    display: inline-block;
-}
+
 
 hr {
   width: 80%;
