@@ -212,7 +212,7 @@ transition: all ease-in 0.3s;
 /* Services*/
   #services {
     background-color: white;
-    height: 700px;
+    height: 800px;
     display: inline-block;
   width: 100vw;
   
@@ -226,6 +226,85 @@ transition: all ease-in 0.3s;
     font-size: 50px;
     color: #333333;
     font-weight: 700;
+}
+
+#services h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #333333;
+}
+
+#services img {
+  display: block;
+  margin: 0 auto;
+}
+
+/*Contact*/
+#contact {
+  background-color: white;
+  height: 700px;
+  display: inline-block;
+width: 100vw;
+}
+
+#contact h1 {
+  text-align: center;
+    padding-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    color: #333333;
+    font-weight: 700;
+}
+
+#contact form {
+position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  flex-direction: column;
+  
+}
+
+
+input, textarea {
+  width: 40%;
+  font-size: 18px;
+}
+
+ #form{
+  display: block;
+   margin: 20px auto;
+   padding: 20px 40px;
+   font-size: 14px;
+   background-color: #E9473F;
+   border: none;
+   border-radius: 25px;
+   text-transform: uppercase;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   color: #ffffff;
+}
+
+form input {
+  
+border-radius: 5px;
+  margin: 10px;
+  border: 1px solid #E9473F;
+}
+
+textarea {
+  border-radius: 5px;
+  border: 1px solid #E9473F;
+}
+
+footer {
+ 
+  padding: 3px;
+  background-color: #E9473F;
+  color: white;
+  /*grid-row-start: 2;
+  grid-row-end: 3;*/
 }
 
 
