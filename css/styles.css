@@ -94,7 +94,7 @@ html {
 
   #about {
       background-color: white;
-      height: 600px;
+      height: 500px;
       width: 100vw;
       display: inline-block;
   }
@@ -168,6 +168,21 @@ h3 {
 
 #portfolio h1 {
   text-align: center;
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    color: #333333;
+    font-weight: 700;
+    ;
+}
+
+#portfolio h5 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #333333;
+    
+    font-style: italic;
+
 }
 
 .mini-gallery {
@@ -186,6 +201,10 @@ h3 {
   vertical-align: baseline;
 }
 
+.mini-gallery a:hover {
+opacity: 0.5;
+transition: all ease-in 0.3s;
+}
 
 
 /* Services*/
