@@ -173,7 +173,6 @@ h3 {
     font-size: 50px;
     color: #333333;
     font-weight: 700;
-    ;
 }
 
 #portfolio h5 {
@@ -206,18 +205,33 @@ opacity: 0.5;
 transition: all ease-in 0.3s;
 }
 
+#portfolio hr {
+  padding-top: 20px;
+}
 
 /* Services*/
   #services {
-    background-color: red;
+    background-color: white;
     height: 700px;
     display: inline-block;
+  width: 100vw;
+  
 }
 
 
+#services h1 {
+  text-align: center;
+    padding-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    color: #333333;
+    font-weight: 700;
+}
 
-hr {
+
+/*hr {
   width: 80%;
-  margin: 0 auto;
-  padding: 40px;
-}
+  margin: 50px 0 0 150px;
+  
+}*/
+
