@@ -95,8 +95,9 @@ html {
 
   #about {
       background-color: white;
-      height: 500px;
+      height: 650px;
       width: 100vw;
+      padding-left: 40px;
       display: inline-block;
   }
 
@@ -104,7 +105,7 @@ html {
     text-align: center;
     padding-top: 20px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
+    font-size: 55px;
     color: #333333;
     font-weight: 700;
   }
@@ -112,21 +113,29 @@ html {
 
 h3 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 38px;
+  font-size: 45px;
   font-weight: 700;
   color: #333333;
 }
 
 #about p {
   font-family: 'Nunito', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
   color: #333333;
+  width: 20em;
 }
 
- .row {
-   padding: 35px;
- }
+#about .row {
+  padding-top: 60px;
+}
+
+#about img {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 45px;
+}
+
 
  button a {
    text-decoration: none;
@@ -164,6 +173,7 @@ h3 {
   height: 500px;
   width: 100vw;
   display: inline-block;
+  padding-left: 20px;
 }
  
 
@@ -216,7 +226,7 @@ transition: all ease-in 0.3s;
     height: 800px;
     display: inline-block;
   width: 100vw;
-  
+  padding-left: 40px;
 }
 
 
@@ -240,6 +250,12 @@ transition: all ease-in 0.3s;
   display: block;
   margin: 0 auto;
 }
+
+
+ #services .row {
+
+   padding: 35px;
+ }
 
 /*Contact*/
 #contact {
@@ -312,7 +328,7 @@ footer .page {
   position: fixed;
   bottom: 20px;
   right: 30px;
-  /*z-index: 99;*/
+ 
   font-size: 18px;
   border: none;
   outline: none;
@@ -327,9 +343,7 @@ footer .page {
 
 
 
-/*#myBtn:hover {
-  background-color: #555;
-}*/
+
 
 /*Blog Page*/
 
