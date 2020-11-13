@@ -3,7 +3,6 @@ html {
     
 }
 
-
 .container {
     margin: 0;
     padding: 0;
@@ -90,24 +89,48 @@ html {
     to{width: 550px;}
   }
 
+#about, 
+#portfolio,
+#services, 
+#contact {
+background-color: #ffffff;
+width: 100vw;
+display: inline-block;
+}
+
+#about,
+#services {
+  padding-left: 40px;
+}
+
+#about h1,
+#portfolio h1,
+#services h1,
+#contact h1{
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    color: #333333;
+    font-weight: 700;
+}
+
+#about img,
+#services img,
+section {
+  display: block;
+  margin: 0 auto;
+}
+
 
  /*About*/
 
+
   #about {
-      background-color: white;
       height: 650px;
-      width: 100vw;
-      padding-left: 40px;
-      display: inline-block;
   }
 
   #about h1 {
-    text-align: center;
     padding-top: 20px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 55px;
-    color: #333333;
-    font-weight: 700;
   }
 
 
@@ -131,8 +154,6 @@ h3 {
 }
 
 #about img {
-  display: block;
-  margin: 0 auto;
   padding-bottom: 45px;
 }
 
@@ -169,21 +190,15 @@ h3 {
  /*Our Work*/
 
  #portfolio {
-  background-color: white;
   height: 500px;
-  width: 100vw;
-  display: inline-block;
   padding-left: 20px;
 }
  
 
 #portfolio h1 {
-  text-align: center;
+
     padding-top: 10px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
-    color: #333333;
-    font-weight: 700;
+    
 }
 
 #portfolio h5 {
@@ -222,21 +237,14 @@ transition: all ease-in 0.3s;
 
 /* Services*/
   #services {
-    background-color: white;
     height: 800px;
-    display: inline-block;
-  width: 100vw;
-  padding-left: 40px;
+  
 }
 
 
 #services h1 {
-  text-align: center;
     padding-top: 30px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
-    color: #333333;
-    font-weight: 700;
+    
 }
 
 #services h3 {
@@ -246,12 +254,6 @@ transition: all ease-in 0.3s;
   color: #333333;
 }
 
-#services img {
-  display: block;
-  margin: 0 auto;
-}
-
-
  #services .row {
 
    padding: 35px;
@@ -259,19 +261,11 @@ transition: all ease-in 0.3s;
 
 /*Contact*/
 #contact {
-  background-color: white;
   height: 700px;
-  display: inline-block;
-width: 100vw;
 }
 
 #contact h1 {
-  text-align: center;
-    padding-top: 50px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
-    color: #333333;
-    font-weight: 700;
+    padding-top: 50px; 
 }
 
 #contact form {
@@ -341,10 +335,6 @@ footer .page {
 }
 
 
-
-
-
-
 /*Blog Page*/
 
 /* Nav Bar */
@@ -378,8 +368,7 @@ footer .page {
 
 section {
   padding: 100px 0 0 150px;
-  display: block;
-  margin: 0 auto;
+ 
 }
 
 section h1 {
