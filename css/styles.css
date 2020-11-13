@@ -133,7 +133,7 @@ section {
   }
 
   #about h1 {
-    padding-top: 20px;
+    padding-top: 50px;
   }
 
 
@@ -392,30 +392,29 @@ section h1 {
     height: 115vh;
   }
   #about {
-height: 100vh;
+height: 99vh;
 padding-left: 6vw;
   }
   #about h1 {
-    font-size: 4vw;
+    font-size: 5vw;
   }
 
   #about h3 {
-    font-size: 3.3vw;
+    font-size: 4vw;
   }
 
-  
 
-#about .col:nth-child(2) {
-  padding-left: 100px;
+#about .row .col:nth-child(1){
+  /*display: flex;*/
+  padding-left: 150px;
 }
 
-
- /* #about col:nth-child(2),
- #about .paragraph:nth-child(2) {
-   display: block;
-   margin: 0 auto;
- }*/
-  
+#services {
+  height: 120vh;
+}
+ #contact {
+   height: 120vh;
+ } 
 }
 
 
