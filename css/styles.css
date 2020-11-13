@@ -44,7 +44,8 @@ html {
   #home {
     background-image: url('../images/devon-janse-van-rensburg--zUuf57UmYc-unsplash.jpg');
     background-size: cover;
-      height: 700px;
+    /*  height: 700px;*/
+    height: 100vh;
       width: 102vw;; 
       display: inline-block;
       background-repeat: no-repeat;
@@ -58,6 +59,7 @@ html {
     overflow: hidden;
     font-family: 'Montserrat', sans-serif; 
     font-size: 55px;
+   
     color: white;
     position: absolute;
     top: 40%;
@@ -106,7 +108,8 @@ display: inline-block;
 #about h1,
 #portfolio h1,
 #services h1,
-#contact h1{
+#contact h1,
+section h1{
 text-align: center;
 font-family: 'Montserrat', sans-serif;
     font-size: 50px;
@@ -372,19 +375,46 @@ section {
 }
 
 section h1 {
-  text-align: center;
   padding-bottom: 20px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 50px;
-  color: #333333;
-  font-weight: 700;
-
 }
 
 .bg-primary {
   background-color: #E9473F!important;
 }
 
+
+/*Web Responsive*/
+
+/*Larger Screens*/
+
+@media screen and (min-width:1024px) {
+  #home {
+    height: 115vh;
+  }
+  #about {
+height: 100vh;
+padding-left: 6vw;
+  }
+  #about h1 {
+    font-size: 4vw;
+  }
+
+  #about h3 {
+    font-size: 3.3vw;
+  }
+
+#about .col:nth-child(2) {
+  padding-left: 100px;
+}
+
+
+ /* #about col:nth-child(2),
+ #about .paragraph:nth-child(2) {
+   display: block;
+   margin: 0 auto;
+ }*/
+  
+}
 
 
 
