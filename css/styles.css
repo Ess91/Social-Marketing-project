@@ -18,7 +18,7 @@ html {
 }
 
 nav {
-  padding: 20px;
+  padding: 3px 20px 0 0;
 }
 
 
@@ -341,17 +341,14 @@ footer .page {
   position: fixed;
   bottom: 20px;
   right: 30px;
- 
-  font-size: 18px;
-  border: none;
-  outline: none;
-  background-color: #E9473F;
-  color: white;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 35px;
+  font-size: 40px;
   opacity: 0.5;
+  color: #E9473F;
+  cursor: pointer;
 }
+
+/*
+}*/
 
 
 /*Blog Page*/
