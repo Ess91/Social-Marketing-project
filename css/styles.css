@@ -570,7 +570,7 @@ padding-left: 6vw;
 
 /*Tablets & Mobile*/
 
-@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {
   #home {
     width: 100%;
   }
