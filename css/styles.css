@@ -571,6 +571,9 @@ padding-left: 6vw;
   padding: 10px;
   right: 15px;
 }
+#services {
+  height: 1100px;
+}
 }
 
 /*Tablets & Mobile*/
