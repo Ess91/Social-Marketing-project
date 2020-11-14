@@ -379,7 +379,7 @@ footer .page {
 .nav-bar-blog ul li:hover {
   border-bottom: 5px solid #E9473F;
 }
-
+*/
 
 section {
   padding: 100px 0 0 150px;
@@ -388,7 +388,7 @@ section {
 
 section h1 {
   padding-bottom: 20px;
-}*/
+}
 
 .bg-primary {
   background-color: #E9473F!important;
@@ -432,10 +432,9 @@ padding-left: 6vw;
 /*Smaller Screens*/
 
 @media screen and (max-width: 864px) {
-  .logo {
-    padding: 0;
-  }
-
+ .container {
+   padding-left: 10px;
+ }
   .nav-wrapper {
     position: fixed;
     top: 0;
@@ -465,6 +464,8 @@ padding-left: 6vw;
 
   .nav-wrapper ul li:nth-child(1) a {
     transition-delay: 0.2s;
+    margin-left: 20px;
+  margin-top: 10px;
   }
 
   .nav-wrapper ul li:nth-child(2) a {
@@ -487,16 +488,17 @@ padding-left: 6vw;
     padding: 10px 24px;
     opacity: 0;
     color: #000;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
     letter-spacing: 1.2px;
+    float: left;
     transform: translateX(-20px);
     transition: all 0.2s ease;
   }
 
   .nav-btn {
     position: fixed;
-    right: 10px;
+    left: 10px;
     top: 10px;
     display: block;
     width: 48px;
@@ -510,7 +512,7 @@ padding-left: 6vw;
     display: block;
     width: 20px;
     height: 2px;
-    background: #000;
+    background: #000000;
     border-radius: 2px;
     margin-left: 14px;
   }
@@ -527,14 +529,14 @@ padding-left: 6vw;
   .nav-btn i:nth-child(3) {
     margin-top: 4px;
   }
-}
+
 
 #nav:checked + .nav-btn {
   transform: rotate(45deg);
 }
 
 #nav:checked + .nav-btn i {
-  background: #000;
+  background: #E9473F;
   transition: transform 0.2s ease;
 }
 
@@ -553,6 +555,7 @@ padding-left: 6vw;
 #nav:checked ~ .nav-wrapper {
   z-index: 9990;
   opacity: 1;
+  height: 100px;
 }
 
 #nav:checked ~ .nav-wrapper ul li a {
@@ -563,3 +566,59 @@ padding-left: 6vw;
 .hidden {
   display: none;
 }
+}
+
+/*Tablets & Mobile*/
+
+@media screen and (max-width: 768px) {
+  #home {
+    width: 100%;
+  }
+  #porfolio {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  #portfolio h5 {
+    font-size: 13px;
+    
+  }
+
+  .mini-gallery {
+    line-height: 1;
+    column-count: 2;
+    column-gap: 2px;
+    padding: 30px;
+    width: 80%;
+  }
+#service {
+  height: 200vh;
+}
+  #service h1 {
+    padding-top: 140px;
+  }
+
+
+}
+  @media screen and (max-width: 550px) {
+    
+  .mini-gallery {
+    line-height: 1;
+    column-count: 1;
+    column-gap: 2px;
+    padding: 40px;
+  }
+
+  #parent {
+    font-size: 9vw;
+  }
+
+  #portfolio h5 {
+    font-size: 3vw;
+  }
+
+  
+}
+
+
+/*
