@@ -3,10 +3,12 @@ html {
     
 }
 
-.container {
-    margin: 0;
+.container-full {
+  /*  margin: 0;
     padding: 0;
-    height: 100%;
+    height: 100%;*/
+    width: 100%;
+    padding: 0;
 }
 
 
@@ -435,9 +437,7 @@ padding-left: 6vw;
 /*Tablets*/
 
 @media screen and (max-width: 768px) {
- /*.container {
-   padding-left: 10px;
- }*/
+
 
   .nav-wrapper {
     position: fixed;
@@ -583,6 +583,15 @@ padding-left: 6vw;
 /*Mobile */
 
 @media screen and (max-width: 425px) {
+
+  .arrow #myBtn {
+left: 20px;
+  }
+
+  #home {
+    width: 50rem;
+  }
+  
   .nav-wrapper ul li a {
     font-size: 9px;
     padding: 8px;
@@ -592,7 +601,7 @@ padding-left: 6vw;
 .mini-gallery {
   display: flex;
   flex-direction: column;
-  width: 100vw;
+  width: 25rem;
 }
 
 #services {
