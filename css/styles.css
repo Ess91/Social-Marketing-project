@@ -63,13 +63,15 @@ nav ul li a:hover {
 
 
 
-  /*Index - Hopepage */
+
+  /*Index - Homepage */
   #home {
     background-image: url('../images/devon-janse-van-rensburg--zUuf57UmYc-unsplash.jpg');
     background-size: cover;
     /*  height: 700px;*/
-    height: 100vh;
-      width: 102vw;; 
+   height: 100vh;
+      width: 102vw; 
+      
       display: inline-block;
       background-repeat: no-repeat;
   }
@@ -430,7 +432,7 @@ padding-left: 6vw;
  } 
 }
 
-/*Smaller Screens 864*/
+/*Tablets*/
 
 @media screen and (max-width: 768px) {
  /*.container {
@@ -576,6 +578,27 @@ padding-left: 6vw;
 #services {
   height: 1100px;
 }
+}
+
+/*Mobile */
+
+@media screen and (max-width: 425px) {
+  .nav-wrapper ul li a {
+    font-size: 9px;
+    padding: 8px;
+  }
+
+
+.mini-gallery {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+#services {
+  height: 10000px;
+}
+
 }
 
 /*Tablets & Mobile*/
