@@ -230,7 +230,7 @@ h3 {
     padding-top: 10px; 
 }
 
-#portfolio h5 {
+#portfolio p {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   color: #333333;
@@ -587,7 +587,24 @@ padding-left: 6vw;
   #home {
     width: 50rem;
   }
+
+  #about .row {
+    display: flex;
+    flex-wrap: initial;
+  }
  
+  #about h1 {
+    font-size: 55px;
+  padding-left: 30px;
+  }
+
+  #portfolio h1 {
+    padding-left: 3em;
+  }
+
+  #portfolio p {
+
+  }
 
 
 .mini-gallery {
