@@ -589,9 +589,9 @@ padding-left: 6vw;
 /*Mobile */
 
 @media screen and (max-width: 425px) {
-  .arrow #myBtn {
+  /*.arrow #myBtn {
     left: 20px;
-      }
+      }*/
   #home {
     width: 50rem;
   }
