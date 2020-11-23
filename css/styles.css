@@ -407,8 +407,9 @@ section h1 {
 
 @media screen and (min-width:1024px) {
   #about {
-height: 99vh;
-padding-left: 6vw;
+    height: 90vh;
+    padding-left: 6vw;
+    padding-top: 80px;
   }
   #about h1 {
     font-size: 5vw;
@@ -418,9 +419,8 @@ padding-left: 6vw;
     font-size: 4vw;
   }
 
-#about .row .col:nth-child(1){
-  /*display: flex;*/
-  padding-left: 150px;
+  #portfolio h1 {
+    padding-top: 80px;
 }
 
 #services {
@@ -576,7 +576,18 @@ padding-left: 6vw;
 }
 
 
+@media screen and (min-width: 768px) {
+#about .row .col h3 {
+ text-align: center;
 }
+
+#about .row .col p {
+  width: 38em;
+  text-align: center;
+}
+}
+
+
 
 /*Mobile */
 
@@ -658,57 +669,3 @@ form {
 }
 }
 
-/*Tablets & Mobile*/
-
-/*@media screen and (max-width: 768px) {
-  #home {
-    width: 100%;
-  }
-  #porfolio {
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-
-  #portfolio h5 {
-    font-size: 13px;
-    
-  }
-
-  .mini-gallery {
-    line-height: 1;
-    column-count: 2;
-    column-gap: 2px;
-    padding: 30px;
-    width: 80%;
-  }
-#service {
-  height: 200vh;
-}
-  #service h1 {
-    padding-top: 140px;
-  }
-
-
-}
-  @media screen and (max-width: 550px) {
-    
-  .mini-gallery {
-    line-height: 1;
-    column-count: 1;
-    column-gap: 2px;
-    padding: 40px;
-  }
-
-  #parent {
-    font-size: 9vw;
-  }
-
-  #portfolio h5 {
-    font-size: 3vw;
-  }
-
-  
-}
-
-
-/*
