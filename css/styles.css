@@ -595,28 +595,67 @@ padding-left: 6vw;
  
   #about h1 {
     font-size: 55px;
-  padding-left: 30px;
+    margin-right: -340px;
   }
 
+  button {
+    margin-left: 300px;
+  }
+
+ #portfolio {
+  height: 140rem;
+ }
+
   #portfolio h1 {
-    padding-left: 3em;
+    margin-right: -340px;
   }
 
   #portfolio p {
-
+    margin-right: -20em;
   }
 
 
+
 .mini-gallery {
-  display: flex;
-  flex-direction: column;
-  width: 25rem;
+  column-count: 2;
+    width: 45rem;
+    display: block;
+  
+    margin-left: 10px;
 }
 
 #services {
-  height: 10000px;
+  height: 1070px;
 }
 
+#services h1 {
+  margin-right: -6em;
+}
+
+#services .row {
+  margin-left: -30px;
+  width: 50em;
+}
+
+#contact {
+  height: 200px;
+}
+
+#contact h1 {
+  margin-right: -6em;
+}
+
+
+
+#contact form {
+width: 55em;
+padding-top: 20px;
+}
+
+form {
+  padding-right: 30px;
+  
+}
 }
 
 /*Tablets & Mobile*/
