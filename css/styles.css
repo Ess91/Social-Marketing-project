@@ -506,7 +506,11 @@ min-width: 1024px
 
 @media screens and (max-width: 424px) {
 #home {
-  max-width: 100%;
+  width: 100%;
+  position: relative;
+  transform: none;
+  left: 0;
+  top: 0;
 }
 }
 

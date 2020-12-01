@@ -1,0 +1,87 @@
+body, 
+html {
+    height: 100%;
+    margin: 0;
+}
+
+#home {
+    background-image: url('../images/devon-janse-van-rensburg--zUuf57UmYc-unsplash.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+
+.nav-bar {
+    position: absolute;
+    top: 0;
+}
+
+/*nav {
+    position: absolute;
+    top: 10%;
+}
+
+/*#home {
+    background-image: url('../images/devon-janse-van-rensburg--zUuf57UmYc-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+}
+
+
+
+/* Nav Bar */
+
+
+  
+ /* nav {
+    padding: 3px 20px 0 0;
+
+  }
+  
+  
+  
+  nav ul  {
+    float: right;
+    
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li:not(:first-child) {
+    margin-left: 48px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 24px;
+  }
+  
+  nav ul li a {
+    display: inline-block;
+    outline: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    z-index: 1;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: none;
+    color: white;
+    border-bottom: 5px solid #E9473F;
+  }
+  
+  .hidden {
+    display: none;
+  }
+*/
