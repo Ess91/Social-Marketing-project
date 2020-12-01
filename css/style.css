@@ -14,14 +14,9 @@ html {
 }
 
 
-.nav-bar {
+nav {
     position: absolute;
     top: 0;
-}
-
-/*nav {
-    position: absolute;
-    top: 10%;
 }
 
 /*#home {
