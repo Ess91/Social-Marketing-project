@@ -171,6 +171,7 @@ nav ul li a:hover {
 
 html{
   scroll-behavior: smooth;
+overflow-x: hidden;
 }
 
 body{
@@ -187,11 +188,12 @@ section {
   width: 100%;
   float: left;
   height: 100vh;
+  min-height: 500px;
   position: relative;
 }
 /*css reset*/
 
-header{
+/*header{
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -212,7 +214,7 @@ nav li{
 nav ul {
   position: absolute;
     left: 50%;
-    top: 10px;
+    top: 20px;
 }
 
 nav li a{
@@ -237,10 +239,15 @@ nav ul li a:hover {
   display: none;
 }
 
-#home {
+/*#home {
   background-image: url('../images/devon-janse-van-rensburg--zUuf57UmYc-unsplash.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  width: 100%;
+}*/
+
+#home {
+  background-color: red;
   width: 100%;
 }
 
@@ -349,6 +356,7 @@ button:hover {
 
 section #services {
   height: 160vh;
+  min-height: 900px;
 }
 #services h1 {
   padding-top: 30px;
@@ -365,6 +373,9 @@ color: #333333;
  padding: 35px;
 }
 
+#services .row:nth-child(1) {
+  padding-bottom: 30px;
+}
 
 #services p {
   font-family: 'Nunito', sans-serif;
@@ -379,10 +390,11 @@ color: #333333;
 
 section #portfolio {
   height: 150vh;
+  max-height: 1000px;
 }
 
 #portfolio h1 {
-  padding-top: 10px; 
+  padding-top: 100px; 
 }
 
 #portfolio p {
@@ -413,9 +425,151 @@ opacity: 0.5;
 transition: all ease-in 0.3s;
 }
 
-#portfolio hr {
-padding-top: 20px;
+/* Web Responsive - 
+Small Smartphones - 425px or less
+Larger Smartphones - 426px to 768px
+Small Screen laptops - 769px to 1024px
+Desktops - 1025px or more*/
+
+/*Responsive Nav bar*/
+@media screen and (max-width: 768px) {
+ /* .nav-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%!important;
+    height: 100%;
+    z-index: -1;
+    background: #fff;
+    opacity: 0;
+    transition: all 0.2s ease;
+  }*/
+
+  .nav-wrapper ul {
+    position: absolute;
+    top: 28%;
+    transform: translateY(-50%);
+    width: 100%;
+  }
+
+  .nav-wrapper ul li {
+    display: block;
+    float: none;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  .nav-wrapper ul li:nth-child(1) a {
+    transition-delay: 0.2s;
+  }
+
+  .nav-wrapper ul li:nth-child(2) a {
+    transition-delay: 0.3s;
+  }
+
+  .nav-wrapper ul li:nth-child(3) a {
+    transition-delay: 0.4s;
+  }
+
+  .nav-wrapper ul li:nth-child(4) a {
+    transition-delay: 0.5s;
+  }
+
+  .nav-wrapper ul li:not(:first-child) {
+    margin-left: 0;
+  }
+
+  .nav-wrapper ul li a {
+    padding: 10px 24px;
+    opacity: 0;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    transform: translateX(-20px);
+    transition: all 0.2s ease;
+  }
+
+  .nav-btn {
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    display: block;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    z-index: 9999;
+    border-radius: 50%;
+  }
+
+  .nav-btn i {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: #000;
+    border-radius: 2px;
+    margin-left: 14px;
+  }
+
+  .nav-btn i:nth-child(1) {
+    margin-top: 16px;
+  }
+
+  .nav-btn i:nth-child(2) {
+    margin-top: 4px;
+    opacity: 1;
+  }
+
+  .nav-btn i:nth-child(3) {
+    margin-top: 4px;
+  }
+
+
+#nav:checked + .nav-btn {
+  transform: rotate(45deg);
 }
+
+#nav:checked + .nav-btn i {
+  background: #000;
+  transition: transform 0.2s ease;
+}
+
+#nav:checked + .nav-btn i:nth-child(1) {
+  transform: translateY(6px) rotate(180deg);
+}
+
+#nav:checked + .nav-btn i:nth-child(2) {
+  opacity: 0;
+}
+
+#nav:checked + .nav-btn i:nth-child(3) {
+  transform: translateY(-6px) rotate(90deg);
+}
+
+#nav:checked ~ .nav-wrapper {
+  z-index: 9990;
+  opacity: 1;
+}
+
+#nav:checked ~ .nav-wrapper ul li a {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.hidden {
+  display: none;
+}
+}
+
+
+@media screen and (max-width: 425px) {
+  #home {
+    width: 425px;
+  }
+}
+
+
 
 
 
