@@ -18,13 +18,208 @@ body {
 
 
 #home {
-    background-image: url();
+    background-image: url('../SocialMedia-Project/images/devon-janse-van-rensburg--zUuf57UmYc-unsplash.jpg');
     width: 100%;
-    height: 102vh;
+    height: 101vh;
+    background-size: cover;
 }
 
-#about {
-    background-color: salmon;
-    width: 100%;
-    height: 102vh;
+/* Nav Bar */
+
+
+nav {
+  padding: 20px;
 }
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li:not(:first-child) {
+  margin-left: 48px;
+}
+
+nav ul li:last-child {
+  margin-right: 24px;
+}
+
+nav ul li a {
+  display: inline-block;
+  outline: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 1.2px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+  color: white;
+  border-bottom: 5px solid #E9473F;
+}
+
+.hidden {
+  display: none;
+}
+
+#parent {
+  font-size: 55px;
+  color: white;
+  position: absolute;
+  top: 40%;
+  right: 5%;
+  padding-left: 5rem;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#child {
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: 'Montserrat', sans-serif; 
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  right: 22%;
+  padding-left: 5rem;
+  color: white;
+}
+
+/* Animation */
+#parent {
+  animation: animated-text 3s steps(30,end) 1s 1 normal both
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 550px;}
+}
+
+h1 {
+  text-align: center;
+font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    color: #333333;
+    font-weight: 700;
+    padding-top: 30px;
+}
+
+/*Section - About*/
+ 
+
+#about {
+  width: 100%;
+  height: 101vh;
+
+  padding-left: 40px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  color: #333333;
+}
+
+#about p {
+  padding-top: 20px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #333333;
+width: 60em;
+  
+  display: block;
+  margin: 0 auto;
+}
+
+#about img {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+button a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 20px 40px;
+  font-size: 14px;
+  background-color: #E9473F;
+  border: none;
+  border-radius: 25px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  
+}
+
+button:hover a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+button:hover {
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+
+/*Section - Portfolio */
+
+.mini-gallery {
+  /* Prevent vertical gaps */
+  line-height: 1;
+  column-count: 3;
+  column-gap: 2px;
+  padding: 40px;
+ 
+}
+
+.mini-gallery img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+  vertical-align: baseline;
+}
+
+.mini-gallery a:hover {
+opacity: 0.5;
+transition: all ease-in 0.3s;
+}
+
+
+
+
+@media screen and (max-width: 425px) {
+  #parent {
+    font-size: 2rem;
+    display: block;
+    margin: 0 auto;
+  }
+#child {
+  font-size: 1rem;
+  top: 48%;
+  display: block;
+  margin: 0 auto;
+}
+}
+
+
+
+
+
+
+
+
+
