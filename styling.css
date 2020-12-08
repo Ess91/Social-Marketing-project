@@ -70,7 +70,7 @@ nav ul li a:hover {
   color: white;
   position: absolute;
   top: 40%;
-  right: 5%;
+  right: 20%;
   padding-left: 5rem;
   font-weight: 600;
   white-space: nowrap;
@@ -84,7 +84,7 @@ nav ul li a:hover {
   font-size: 30px;
   position: absolute;
   top: 50%;
-  right: 22%;
+  right: 29%;
   padding-left: 5rem;
   color: white;
 }
@@ -139,6 +139,12 @@ width: 60em;
   margin: 0 auto;
 }
 
+@media screen and (min-width: 1024px) {
+  #about p {
+    width: 75%;
+  }
+}
+
 #about img {
   border-radius: 50%;
   display: block;
@@ -173,6 +179,36 @@ button:hover a {
 button:hover {
   transform: scale(1.1);
   transition: 0.7s;
+}
+
+
+/*Section - Services */
+
+
+
+#services h1 {
+  padding-top: 160px;
+  padding-bottom: 50px;
+}
+
+#services .row {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 60px;
+}
+
+
+/*#services .row {
+  padding-left: 60px;
+  padding-bottom: 20px;
+  width: 80%;
+}*/
+
+#services h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #333333;
 }
 
 /*Section - Portfolio */
