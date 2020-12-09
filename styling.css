@@ -107,7 +107,7 @@ font-family: 'Montserrat', sans-serif;
     font-size: 50px;
     color: #333333;
     font-weight: 700;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 /*Section - About*/
@@ -133,7 +133,7 @@ h3 {
   font-size: 18px;
   font-weight: 300;
   color: #333333;
-width: 60em;
+/*width: 80em;*/
   
   display: block;
   margin: 0 auto;
@@ -141,7 +141,7 @@ width: 60em;
 
 @media screen and (min-width: 1024px) {
   #about p {
-    width: 75%;
+    width: 95%;
   }
 }
 
@@ -187,7 +187,7 @@ button:hover {
 
 
 #services h1 {
-  padding-top: 160px;
+  padding-top: 10px;
   padding-bottom: 50px;
 }
 
@@ -213,6 +213,10 @@ button:hover {
 
 /*Section - Portfolio */
 
+#portfolio p {
+  text-align: center;
+}
+
 .mini-gallery {
   /* Prevent vertical gaps */
   line-height: 1;
@@ -232,6 +236,20 @@ button:hover {
 .mini-gallery a:hover {
 opacity: 0.5;
 transition: all ease-in 0.3s;
+}
+
+
+/*Section - Contact */
+
+form {
+  display: block;
+  margin: 0 auto;
+  width: 75%;
+  padding-bottom: 50px
+}
+
+form textarea .form-control {
+ padding-right: 30px;
 }
 
 
