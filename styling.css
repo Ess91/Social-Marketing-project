@@ -28,8 +28,9 @@ body {
 
 
 nav {
-  padding: 20px;
+  padding: 5px;
 }
+
 
 nav ul li {
   display: inline-block;
@@ -239,26 +240,6 @@ transition: all ease-in 0.3s;
 }
 
 
-/*Section - Contact */
-
-/*form {
-  display: block;
-  margin: 0 auto;
-  width: 75%;
-  padding-bottom: 50px
-}
-
-form textarea .form-control {
- padding-right: 30px;
-}*/
-
-/*Footer*/
-
-/*footer {
-  background-color: #E9473F;
-
-}*/
-
 .site-footer {
   background-color: #26272b;
   padding:45px 0 20px;
@@ -293,7 +274,7 @@ form textarea .form-control {
   text-decoration:none;
 }
 
-.site-footer p {
+.site-footer p:nth-child(2) {
   width: 30em;
   
 }
